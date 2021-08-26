@@ -1,0 +1,214 @@
+{
+  /* == Rodapé no Desktop == */
+  "vtex.menu@2.x:menu#Products": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#product-manual", // Manual do Produto
+      "menu-item#size-guide", // Guia de Tamanhos
+      "menu-item#discount-coupons", // Cupons de Descontos
+      "menu-item#gift-voucher" // Vale Presente
+    ]
+  },
+  "menu-item#product-manual": { // Manual do Produto
+    "props": {
+      "id": "menu-item#product-manual",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "Manual do Produto"
+      }
+    }
+  },
+  "menu-item#size-guide": { // Guia de Tamanhos
+    "props": {
+      "id": "menu-item#size-guide",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "Guia de Tamanhos"
+      }
+    }
+  },
+  "menu-item#discount-coupons": { // Cupons de Descontos
+    "props": {
+      "id": "menu-item#discount-coupons",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "Cupons de Descontos"
+      }
+    }
+  },
+  "menu-item#gift-voucher": { // Vale Presente
+    "props": {
+      "id": "menu-item#gift-voucher",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "Vale Presente"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-decoration": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#blog", // Blog
+      "menu-item#brand-manual", // Manual de Marca
+      "menu-item#safety" // Segurança
+    ]
+  },
+
+  "menu-item#blog": { // Blog
+    "props": {
+      "id": "menu-item#blog",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "Blog"
+      }
+    }
+  },
+  "menu-item#brand-manual": { // Manual de Marca
+    "props": {
+      "id": "menu-item#brand-manual",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "Manual de Marca"
+      }
+    }
+  },
+  "menu-item#safety": { // Segurança
+    "props": {
+      "id": "menu-item#safety",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/",
+        "noFollow": false,
+        "text": "Segurança"
+      }
+    }
+  },
+
+  "vtex.menu@2.x:menu#footer-bags": {
+    "props": {
+      "orientation": "horizontal"
+    },
+    "children": [
+      "menu-item#whatsapp" // WhatsApp
+    ]
+  },
+  "menu-item#whatsapp": {
+    "children": ["rich-text#whatsapp"],
+    "props": {
+      "blockClass": "whatsapp"
+    }
+  },
+    "rich-text#whatsapp": {
+      "props": {
+        "textAlignment": "LEFT",
+        "textPosition": "LEFT",
+        "text": "**Precisa de ajuda?** \n Fale com a gente \n no WhatsApp [(22) 22222-2222](https://api.whatsapp.com/send?phone=55222222222222&text=Estou%20visitando%20sua%20loja%20e%20tenho%20uma%20d%C3%BAvida.%20Poderia%20me%20ajudar%3F)",
+        "blockClass": "whatsapp-message"
+      }
+    },
+      /*"id": "menu-item#whatsapp",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "url": "https://api.whatsapp.com/send?phone=55222222222222&text=Estou%20visitando%20sua%20loja%20e%20tenho%20uma%20d%C3%BAvida.%20Poderia%20me%20ajudar%3F",
+      "itemProps": {
+        "type": "internal",
+        // "href": "/",
+        "noFollow": false,
+        "text": "Precisa de ajuda? WhatsApp: (XX) XXXX-XXXX"
+      }
+    }*/
+
+  /* == Rodapé no Mobile == */
+ "vtex.menu@2.x:menu#footer-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#decoration-mobile",
+      "menu-item#sale-mobile"
+    ]
+  },
+
+  "menu-item#decoration-mobile": {
+    "props": {
+      "itemProps": {
+        "text": "Institucional"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu.accordion#decoration"]
+  },
+  "vtex.menu@2.x:submenu.accordion#decoration": {
+    "children": ["vtex.menu@2.x:menu#footer-decoration-mobile"]
+  },
+  "vtex.menu@2.x:menu#footer-decoration-mobile": {
+    "props": {
+      "orientation": "vertical"
+    },
+    "children": [
+      "menu-item#blog", // Blog
+      "menu-item#brand-manual", // Manual de Marca
+      "menu-item#safety" // Segurança
+    ]
+  },
+
+ "menu-item#sale-mobile": {
+   "props": {
+     "itemProps": {
+       "text": "Produtos"
+     }
+   },
+   "blocks": ["vtex.menu@2.x:submenu.accordion#sale"]
+ },
+ "vtex.menu@2.x:submenu.accordion#sale": {
+   "children": ["vtex.menu@2.x:menu#footer-sale-mobile"]
+ },
+ "vtex.menu@2.x:menu#footer-sale-mobile": {
+   "props": {
+     "orientation": "vertical"
+   },
+   "children": [
+      "menu-item#blog", // Blog
+      "menu-item#brand-manual", // Manual de Marca
+      "menu-item#safety" // Segurança
+   ]
+ }
+}

@@ -1,11 +1,18 @@
+/* == Rodapé == */
 .row--menu-row {
   padding-right: 24px;
-}
-
+ }
 .row--menu-row .rowContainer {
   align-items: flex-start;
 }
-
 .row--payment-methods {
   padding-top: 16px;
+}
+
+/* == Mídias Sociais == */
+.paymentMethodIconImage {
+  background-color: #ffffff;
+}
+.socialNetworkImage {
+  background-color: #ffffff;
 }

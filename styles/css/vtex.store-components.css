@@ -1,30 +1,45 @@
+/* == Barra Frete Grátis == */
 .notificationBarContainer {
-  background-color: #e6f1e6;
-  color: #03034e;
+  background-color: #59ff00;
+  color: #303030;
   font-weight: 700;
-  font-size: 12px;
-  text-decoration: underline;
+  font-size: 14px;
 }
 
+/* == Campo de Pesquisa == */
+.searchBarContainer {
+  background-color: #303030;
+  width: 600px;
+  min-width: 30px;
+}
+.searchBarContainer :global(.vtex-styleguide-9-x-input) {
+  background: #303030;
+}
 .infoCardContainer--info-card-home {
   max-width: 1520px;
   margin: 0 auto;
   background-color: #e6f1e6;
   padding: 0px;
 }
-
-.newsletter {
-  background-color: #03054e;
-  max-width: 1528px;
-  margin: 0 auto;
+.resultsList {
+  background-color: #FFFFFF;
 }
 
-.newsletter .container {
-  padding: 60px 10px;
+/* == Carrossel == */
+.imageElement--carousel {
+  border-radius: 20px;
+  margin: 30px 100px 80px 100px;
+}
+.carousel {
+  width: 70%;
+}
+.productImagesContainer--quickview .carouselContainer {
+  justify-content: flex-start;
 }
 
+/* >>> NÃO SEI <<< */
 .label {
-  color: #fff;
+  color: #FFFFFF;
   font-size: 26px;
 }
 
@@ -34,44 +49,54 @@
   color: #fff;
 }
 
-.inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
-  background-color: transparent;
-  color: #fff;
-  border: none;
-}
-
-.inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
-  color: #fff;
-  font-size: 16px;
-}
-
-.inputGroup :global(.vtex-button) {
-  background-color: transparent;
-  color: #fff;
-  border: none;
-  margin-right: -24px;
-}
-
-.buttonContainer {
-  padding-top: 0px;
-}
-
 .imageElement--storePrint {
   max-height: 300px;
   margin-bottom: 20px;
 }
 
-.skuSelectorContainer {
-  margin: 1rem 0;
+/* == Cadastro de Leads == */
+.newsletter .container {
+  padding: 60px 10px;
 }
 
+/* Fundo do Cadastro de Leads */
+.newsletter {
+  background-color: #ffffff;
+  margin: 0 auto;
+}
+
+/* Campo do Cadastro de Leads */
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators) {
+  background-color: transparent;
+  color: #303030;
+  border: 5px solid #59ff00;
+}
+.inputGroup :global(.vtex-styleguide-9-x-hideDecorators)::placeholder {
+  color: #303030;
+  font-size: 16px;
+}
+
+/* Botão do Cadastro de Leads */
+.inputGroup :global(.vtex-button) {
+  background-color: #303030;
+  color: #59ff00;
+  border: none;
+  margin-right: -24px;
+}
+.buttonContainer {
+  padding-top: 0px;
+  background-color: #ffffff;
+}
+
+/* == Captação de Lead == */
 @media only screen and (min-width: 640px) {
   .newsletter .container {
-    padding: 140px;
+    padding: 60px;
   }
 
   .label {
-    font-size: 40px;
+    font-size: 20px;
+    color: #303030;
   }
 
   .infoCardContainer--info-card-home .infoCardTextContainer {
@@ -88,8 +113,8 @@
   }
 }
 
-.productImagesContainer--quickview .carouselContainer {
-  justify-content: flex-start;
+.skuSelectorContainer {
+  margin: 1rem 0;
 }
 
 .productImagesContainer--quickview .productImageTag {
@@ -106,8 +131,9 @@
   width: 100%;
 }
 
+/* == Nome do Produto == */
 .productNameContainer {
-  color: #3f3f40;
+  color: #ffffff;
   font-weight: bold;
   font-size: 30px;
 }

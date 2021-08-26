@@ -1,8 +1,8 @@
+/* == Cabeçalho == */
 .flexRowContent--menu-link,
 .flexRowContent--main-header {
-  padding: 0 0.5rem;
+  padding: 0 8px;
 }
-
 @media screen and (min-width: 40em) {
   .flexRowContent--menu-link,
   .flexRowContent--main-header {
@@ -15,80 +15,82 @@
     padding: 0 0.25rem;
   }
 }
-
 .flexRowContent--menu-link {
-  background-color: #03044e;
-  color: #fff;
+  background-color: #303030;
 }
 
 .flexRowContent--main-header {
-  background-color: #f0f0f0;
+  background-color: #303030;
 }
-
 .flexRowContent--main-header-mobile {
   align-items: center;
   padding: 0.625rem 0.5rem;
-  background-color: #f0f0f0;
+  background-color: #303030;
 }
-
-.flexRowContent--menu-link :global(.vtex-menu-2-x-styledLink) {
+.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
   color: #ffffff;
   font-size: 14px;
 }
 
-.flexRowContent--main-header :global(.vtex-menu-2-x-styledLink) {
-  color: #727273;
-  font-size: 14px;
-}
-.flexRow--deals {
-  background-color: #a7afbd;
+/* == Informações == */
+.flexRow--deals:first-child {
+  background-color: #303030;
   padding: 14px 0px;
 }
-
 .flexRow--deals .stretchChildrenWidth {
   align-items: center;
 }
-
 .flexRow--deals .flexCol {
   align-items: center;
 }
 
+/* == Rodapé Desktop == */
+.flexRowContent--menu-row :global(.vtex-menu-2-x-styledLink) {
+  color: #ffffff;
+}
+
+/* == Rodapé Mobile == */
+.flexRowContent :global(.vtex-menu-2-x-styledLink) {
+  color: #ffffff;
+}
+.flexRowContent :global(.vtex-menu-2-x-accordionIcon) {
+  color: #ffffff;
+}
+
+/* == Página da Galeria do Produto == */
 .flexCol--filterCol {
   max-width: 500px;
   min-width: 230px;
 }
-
 .flexCol--productCountCol {
   align-items: flex-start;
 }
-
 .flexCol--orderByCol {
   align-items: flex-end;
 }
+.flexCol :global(.vtex-search-result-3-x-filter__container) {
+  color: #ffffff;
+}
 
+/* Mobile */
 .flexCol--orderByMobileCol {
   width: 42%;
 }
-
 .flexCol--filterMobileCol {
   width: 38%;
 }
-
 .flexRow--quickviewMainRow {
   display: flex;
   max-height: 100%;
 }
-
 .flexColChild--quickviewDetails:first-child {
   overflow-y: auto;
   height: 66% !important;
   overflow-x: hidden;
 }
-
 .flexColChild--quickviewDetails:last-child {
   height: 34% !important;
 }
-
 .flexRow--addToCartRow {
   padding-bottom: 1rem;
 }

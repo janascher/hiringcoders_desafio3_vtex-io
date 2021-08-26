@@ -1,34 +1,34 @@
-.flexRow--orderByAndSwitcher {
-  padding-right: 1.5em;
+/* == Página Galeria do Produto == */
+.flexRow--orderByAndSwitcher { /* Filtro Ordenar */
+  padding-right: 24px;
 }
 
+/* Desktop */
 .flexRowContent--savingsSummaryListDesktop {
   justify-content: flex-start;
 }
-
 .flexCol--summaryRightListDesktop {
   justify-content: space-around;
 }
 
+/* Botão Comprar Agora na Página Galeria do Produto == */
 .flexRow--buyNowButton :global(.vtex-button) {
-  background: #eef3f7;
-  border-color:#eef3f7;
-  color: #0f3e99;
+  background: #ffffff;
+  border-color: #303030;
+  color: #59ff00;
 }
-
 .flexRow--buyNowButton:hover :global(.vtex-button) {
-  background: #dbe9fd;
-  border-color:#dbe9fd;
+  background: #59ff00;
+  border-color: #303030;
 }
-
 .flexCol--productRating {
-  margin-bottom: 3rem;
+  margin-bottom: 48px;
 }
 
+/* Mobile */
 .flexCol--summaryDetailsListMobile {
   justify-content: space-between;
 }
-
 .flexCol--summaryUpDetailsListMobile {
-  margin-bottom: 0.25rem
+  margin-bottom: 4px
 }

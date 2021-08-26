@@ -1,0 +1,75 @@
+{
+  /* == Menu Geral de Toda a Página == */
+  "vtex.menu@2.x:menu#category-menu": {
+    "props": {
+      "experimentalOptimizeRendering": true
+    },
+    "children": [
+      "menu-item#category-promo",
+      "menu-item#category-tshirt-corinthians",
+      "menu-item#category-tshirt-palmeiras",
+      "menu-item#category-tshirt-signos"
+
+    ]
+  },
+  /* Menu Promoção */
+  "menu-item#category-promo": {
+    "props": {
+      "id": "menu-item-category-promo",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/kit-upmedal/promocao",
+        "noFollow": false,
+        "text": "PROMOÇÃO"
+      }
+    }
+  },
+  /* Menu Corinthians */
+  "menu-item#category-tshirt-corinthians": {
+    "props": {
+      "id": "menu-item#category-tshirt-corinthians",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/kit-upmedal/corinthians",
+        "noFollow": false,
+        "text": "CORINTHIANS"
+      }
+    }
+  },
+  /* Menu Palmeiras */
+  "menu-item#category-tshirt-palmeiras": {
+    "props": {
+      "id": "menu-item#category-tshirt-palmeiras",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/kit-upmedal/palmeiras",
+        "noFollow": false,
+        "text": "PALMEIRAS"
+      }
+    }
+  },
+  /* Menu Signos */
+  "menu-item#category-tshirt-signos": {
+    "props": {
+      "id": "menu-item#category-tshirt-signos",
+      "type": "custom",
+      "iconId": null,
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "/kit-upmedal/signos",
+        "noFollow": false,
+        "text": "SIGNOS"
+      }
+    }
+  }
+}

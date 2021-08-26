@@ -1,27 +1,61 @@
+/* == Layout do Carrossel e dos Produtos da Página Inicial == */
 .sliderLayoutContainer {
   justify-content: center;
-}
-.sliderLayoutContainer--carousel {
-  background-color: #F0F0F0;
+  background-color: #6e6e6e;
+  padding-top: 20px;
+  padding-bottom: 5px;
 }
 
+/* == Fundo do Carrossel da Página Inicial == */
+.sliderLayoutContainer--carousel {
+  background-color: #6e6e6e;
+}
+
+/* == Tamanho da Página Inicial == */
 .sliderTrackContainer {
   max-width: 1520px;
 }
 
-.paginationDotsContainer {
-  margin-top: .5rem;
-  margin-bottom: .5rem;
+/* == Setas do Carrossel da Página Inicial == */
+.sliderArrows {
+  bottom: 0;
+  padding: 10px 300px 10px 300px;
 }
 
+/* == Pontos do Carrossel da Página Inicial == */
+.paginationDotsContainer {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* == Pontos Ativos do Carrossel da Página Inicial == */
+.paginationDot--isActive {
+  background-color: #59ff00;
+}
+
+/* == Lista de Produtos na Página Inicial */
 .layoutContainer--shelf {
   margin-top: 20px;
   margin-bottom: 20px;
-  max-width: 96rem;
+  max-width: 1536px;
 }
 
+/* == Setas == */
 .slide--shelf {
-  margin-bottom: 25px;
-  padding-left: .5rem;
-  padding-right: .5rem;
+  padding-bottom: 45px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+/* Layout dos Produtos da Página Inicial */
+.slideChildrenContainer--shelf {
+  background-color: #303030;
+  max-width: 450px;
+  width: 10%;
+  min-width: 350px;
+  min-height: 600px;
+  margin: auto;
+  border-radius: 2px;
+  border-color: #262626;
+  border-style: solid;
 }

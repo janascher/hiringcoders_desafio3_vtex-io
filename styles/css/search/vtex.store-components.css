@@ -1,12 +1,13 @@
-.productBrandName--summaryListDesktop {
+/* == Link da UpMedal na Página da Galeria do Produto == */
+.productBrandName--summaryListDesktop { /* Desktop */
   text-decoration: none;
   font-weight: 500;
-  color: #0067C7;
-  font-size: .875rem;
+  color: #59ff00;
+  font-size: 14px;
 }
 
-.productBrandName--summaryListMobile {
+.productBrandName--summaryListMobile { /* Mobile */
   text-decoration: none;
-  color: #0067C7;
-  font-size: .875rem;
+  color: #59ff00;
+  font-size: 14px;
 }

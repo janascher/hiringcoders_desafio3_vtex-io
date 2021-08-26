@@ -1,0 +1,33 @@
+{
+  "name": "hiring-coders-desafio3-ecommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "graphql": "^15.5.1",
+    "node": "^16.6.1",
+    "react": "^17.0.2",
+    "typings": "^2.1.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vtex-apps/store-theme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vtex-apps/store-theme/issues"
+  },
+  "homepage": "https://github.com/vtex-apps/store-theme#readme"
+}

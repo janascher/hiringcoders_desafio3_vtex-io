@@ -1,7 +1,7 @@
 {
-  "vendor": "vtex",
-  "name": "store-theme",
-  "version": "4.4.2",
+  "vendor": "hiringcoders2021",
+  "name": "desafio3-hc-janascher",
+  "version": "0.0.1",
   "builders": {
     "styles": "2.x",
     "store": "0.x",
@@ -13,8 +13,8 @@
     "postreleasy": "vtex publish --verbose"
   },
   "dependencies": {
-    "vtex.store": "2.x",
     "vtex.store-header": "2.x",
+    "vtex.store": "2.x",
     "vtex.product-summary": "2.x",
     "vtex.store-footer": "2.x",
     "vtex.store-components": "3.x",

@@ -1,37 +1,32 @@
 {
+  /* == Página Inicial == */
   "store.home": {
     "blocks": [
-      "list-context.image-list#demo",
-      /* You can make references to blocks defined in other files.
-       * For example, `flex-layout.row#deals` is defined in the `deals.json` file. */
+      "list-context.image-list#home",
       "__fold__.experimentalLazyAssets",
       "flex-layout.row#deals",
-      "rich-text#shelf-title",
       "flex-layout.row#shelf",
-      "info-card#home",
-      "rich-text#question",
-      "rich-text#link",
       "newsletter"
     ]
   },
 
-  "list-context.image-list#demo": {
-    "children": ["slider-layout#demo-images"],
+  "list-context.image-list#home": {
+    "children": ["slider-layout#home-images"],
     "props": {
-      "height": 720,
       "images": [
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner-principal.png",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "image": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/6iibxhv7jzzdn2749uhoxub2fdjf",
+          "mobileImage": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/6iibxhv7jzzdn2749uhoxub2fdjf"
         },
         {
-          "image": "https://storecomponents.vteximg.com.br/arquivos/banner.jpg",
-          "mobileImage": "https://storecomponents.vteximg.com.br/arquivos/banner-principal-mobile.jpg"
+          "image": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/du3k6akoks0u3xe322aypnaaal8e",
+          "mobileImage": "https://maratonavirtual.s3.sa-east-1.amazonaws.com/du3k6akoks0u3xe322aypnaaal8e"
         }
       ]
     }
   },
-  "slider-layout#demo-images": {
+  /* == Carrossel na Página Inicial == */
+  "slider-layout#home-images": {
     "props": {
       "itemsPerPage": {
         "desktop": 1,
@@ -44,60 +39,36 @@
     }
   },
 
-  "rich-text#shelf-title": {
-    "props": {
-      "text": "## Summer",
-      "blockClass": "shelfTitle"
-    }
-  },
+   /* == Lista de Produtos na Página Inicial == */
   "flex-layout.row#shelf": {
-    "children": ["list-context.product-list#demo1"]
+    "children": ["list-context.product-list#home"]
   },
-  "list-context.product-list#demo1": {
+  "list-context.product-list#home": {
     "blocks": ["product-summary.shelf"],
-    "children": ["slider-layout#demo-products"],
+    "children": ["slider-layout#home-products"],
     "props": {
+      "blockClass": "products-home",
+      "category": "20",
+      "hideUnavailableItems": true,
       "orderBy": "OrderByTopSaleDESC"
     }
   },
-  "slider-layout#demo-products": {
+  "slider-layout#home-products": {
     "props": {
       "itemsPerPage": {
-        "desktop": 5,
-        "tablet": 3,
-        "phone": 1
+        "desktop": 2,
+        "tablet": 2,
+        "phone": 1 
       },
       "infinite": true,
       "fullWidth": false,
       "blockClass": "shelf"
     }
   },
-
-  "info-card#home": {
+  /* == Captação de Lead == */
+  "newsletter": {
     "props": {
-      "id": "info-card-home",
-      "isFullModeStyle": false,
-      "textPosition": "left",
-      "imageUrl": "https://storecomponents.vteximg.com.br/arquivos/banner-infocard2.png",
-      "headline": "Clearance Sale",
-      "callToActionText": "DISCOVER",
-      "callToActionUrl": "/sale/d",
-      "blockClass": "info-card-home",
-      "textAlignment": "center"
+      "label": "Entre no Clubinho da UpMedal e Receba Conteúdos e Ofertas Exclusivas"
     }
-  },
-
-  "rich-text#question": {
-    "props": {
-      "text": "**This is an example store built using the VTEX platform.\nWant to know more?**",
-      "blockClass": "question"
-    }
-  },
-
-  "rich-text#link": {
-    "props": {
-      "text": "\n**Reach us at**\nwww.vtex.com.br",
-      "blockClass": "link"
-    }
-  }
+  }      
 }

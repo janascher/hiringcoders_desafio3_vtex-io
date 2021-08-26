@@ -1,3 +1,4 @@
+/* == Página de Descrição do Produto == */
 {
   "store.product": {
     "children": [
@@ -7,16 +8,16 @@
       "flex-layout.row#specifications-title",
       "product-specification-group#table",
       "shelf.relatedProducts",
-      "product-reviews",
-      "product-questions-and-answers"
+      "product-reviews"
+
     ]
   },
   "flex-layout.row#specifications-title": {
     "children": ["rich-text#specifications"]
   },
-  "rich-text#specifications": {
+  "rich-text#specifications": { /* Descrição do Produto */
     "props": {
-      "text": "##### Product Specifications"
+      "text": "##### Descrição do Produto"
     }
   },
   "flex-layout.row#product-breadcrumb": {
@@ -176,7 +177,6 @@
       "social": {
         "Facebook": true,
         "WhatsApp": true,
-        "Twitter": false,
         "Pinterest": true
       }
     }

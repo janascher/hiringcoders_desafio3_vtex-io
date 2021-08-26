@@ -1,17 +1,18 @@
+/* == Informações Frete Grátis, Produção, Retirada e Cupom == */
 {
   "flex-layout.row#deals": {
     "children": [
-      "flex-layout.col#deals1",
-      "flex-layout.col#deals2",
-      "flex-layout.col#deals3",
-      "flex-layout.col#deals4"
+      "flex-layout.col#deals1", /* Frete Grátis */
+      "flex-layout.col#deals2", /* Produção */
+      "flex-layout.col#deals3", /* Retirada */
+      "flex-layout.col#deals4" /* Cupom de Desconto */
     ],
     "props": {
       "blockClass": "deals"
     }
   },
 
-  "flex-layout.col#deals1": {
+  "flex-layout.col#deals1": { /* Frete Grátis */
     "children": [
       "image#deal1",
       "rich-text#deal1"
@@ -25,11 +26,11 @@
   },
   "rich-text#deal1": {
     "props": {
-      "text": "Free shipping",
+      "text": "**FRETE GRÁTIS** \n Acima de R$ 150",
       "blockClass": "deals"
     }
   },
-  "flex-layout.col#deals2": {
+  "flex-layout.col#deals2": { /* Produção */
     "children": [
       "image#deal2",
       "rich-text#deal2"
@@ -43,11 +44,11 @@
   },
   "rich-text#deal2": {
     "props": {
-      "text": "One day delivery",
+      "text": "**PRODUÇÃO SOB ENCOMENDA** \n Consulte o prazo no produto",
       "blockClass": "deals"
     }
   },
-  "flex-layout.col#deals3": {
+  "flex-layout.col#deals3": { /* Retirada */
     "children": [
       "image#deal3",
       "rich-text#deal3"
@@ -61,11 +62,11 @@
   },
   "rich-text#deal3": {
     "props": {
-      "text": "Pick up in store",
+      "text": "**RETIRE NA LOJA** \n Consulte a loja mais próxima",
       "blockClass": "deals"
     }
   },
-  "flex-layout.col#deals4": {
+  "flex-layout.col#deals4": { /* Cupom */
     "children": [
       "image#deal4",
       "rich-text#deal4"
@@ -79,7 +80,7 @@
   },
   "rich-text#deal4": {
     "props": {
-      "text": "Exclusive deals",
+      "text": "**CUPOM DE DESCONTO** \n Consulte condições",
       "blockClass": "deals"
     }
   }

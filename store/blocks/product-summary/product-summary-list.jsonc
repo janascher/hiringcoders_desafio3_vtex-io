@@ -24,6 +24,8 @@
       "blockClass": "summaryPercentage"
     }
   },
+
+  /* == Sumário Desktop Página Inicial == */
   "flex-layout.row#savingsSummaryListDesktop": {
     "props": {
       "colSizing": "auto",

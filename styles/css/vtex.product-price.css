@@ -1,12 +1,14 @@
+/* == Preço Tachado == */
 .listPrice {
-  color: #727273;
-  margin-bottom: .25rem;
-  font-size: 1rem;
+  color: #ffffff;
+  margin-bottom: 4px;
+  font-size: 16px;
 }
 
+/* == Preço de Venda no Sumário do Produto == */
 .sellingPrice {
-  color: #3f3f40;
-  font-size: 1.25rem;
+  color: #59ff00;
+  font-size: 20px;
 }
 
 .sellingPriceValue {
@@ -14,34 +16,38 @@
   font-weight: 700;
 }
 
+/* == Informação de Parcelamento == */
 .installments {
-  color: #727273;
-  margin-bottom: 1rem;
+  color: #ffffff;
+  margin-bottom: 16px;
 }
 
+/* == Economize no Sumário do Produto == */
 .savings {
   font-weight: 500;
-  color: #79B03A;
+  color: #59ff00;
 }
 
+/* == Preço de Venda == */
 .sellingPriceValue--summary {
-  font-size: 1.25rem;
+  font-size: 20px;
   font-weight: 600;
-  color: #2E2E2E;
+  color: #59ff00;
 }
 
+/* == Economize na Página Inicial == */
 .savings--summary {
-  background: #8BC34A;
+  background: #59ff00;
   border-radius: 1000px;
   align-items: center;
   display: flex;
 
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  font-size: 0.875rem;
+  padding-left: 8px;
+  padding-right: 8px;
+  font-size: 14px;
   font-weight: 600;
   vertical-align: baseline;
-  color: #FFFFFF;
+  color: #000000;
 }
 
 .savings-discount--summary {
@@ -63,17 +69,17 @@
   font-size: 0.875rem;
 }
 
+/* == Porcentagem de Desconto na Página Galeria do Produto == */
 .savings--summaryPercentage {
-  background: #0f3e99;
+  background: #303030;
   border-radius: 1000px;
   align-items: center;
   display: flex;
 }
-
 .savingsPercentage--summaryPercentage {
-  font-size: 0.875rem;
+  font-size: 14px;
   font-weight: 600;
   vertical-align: baseline;
-  color: #FFFFFF;
-  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+  color: #59ff00;
+  padding: 4px 8px 4px 8px;
 }

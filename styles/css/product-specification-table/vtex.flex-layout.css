@@ -1,18 +1,23 @@
+/* == Produtos da Página Inicial == */
+.flexRow {
+  background-color: #6e6e6e;
+}
+
 .flexRow--productSpecificationGroup:not(:first-child) {
-  margin-top: 1.5rem;
+  margin-top: 24px;
 }
 
 .flexRow--productSpecificationGroupName {
   background-color: #eaeaea;
-  padding: 0.5rem 1rem;
+  padding: 8px 16px;
 }
 
 .flexCol--productSpecificationName {
-  padding: 1rem;
+  padding: 16px;
 }
 
 .flexCol--productSpecificationValue {
-  padding: 1rem 1rem 1rem 0;
+  padding: 16px 16px 16px 0;
 }
 
 .flexRow--productSpecification:nth-child(even) {
