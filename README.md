@@ -27,7 +27,7 @@ Esse projeto é um desafio proposto pelo [Hiring Coders](https://www.hiringcoder
 
 ---
 
-## 🛠v Tecnologias:
+## 🛠 Tecnologias:
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
