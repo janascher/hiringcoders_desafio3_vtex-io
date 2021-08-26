@@ -1,9 +1,4 @@
-<p align="center">
-      <a href="https://youtu.be/p8PnOILG7wo">
-     <img src="/assets/desafio-upmedal.png" width=100%>
-      </a>
-</p>
-<br></br>
+[!Alt Text](https://j.gifs.com/Z8zXg8.gif)
 
 <h4 align="center"> 
 	🚧  Desafio Hiring Coders #3 🚀 Em construção...  🚧
@@ -50,4 +45,4 @@ Infelizmente o projeto não foi totalmente finalizado, pois faltou implementar u
 <br/>
 
 [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/janainascherdeoliveira/) 
-[![ProtonMail Badge](https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:jscher@protonmail.com)# hiring-coders_desafio3_vtex-io
+[![ProtonMail Badge](https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white)](mailto:jscher@protonmail.com)
