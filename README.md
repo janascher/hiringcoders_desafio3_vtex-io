@@ -1,4 +1,9 @@
-[!Alt Text](https://j.gifs.com/Z8zXg8.gif)
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=p8PnOILG7wo">
+    <img src="https://i.pinimg.com/564x/50/0d/94/500d945ee79a82704dbc548a5ca5b126.jpg" width="550">
+    <p align="center">Assista o vídeo clicando na imagem acima</p>
+  </a>
+</p>
 
 <h4 align="center"> 
 	🚧  Desafio Hiring Coders #3 🚀 Em construção...  🚧
